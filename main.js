@@ -2,6 +2,7 @@ const Discord = require("discord.js")
 var nexus = new Discord.Client()
 var chalk = require("chalk")
 var config = require("./config.json")
+const package = require("package.json")
 
 nexus.on("ready", () => {
 	console.log(chalk.blue(
@@ -12,7 +13,7 @@ nexus.on("ready", () => {
 ));
   nexus.user.setPresence({
     game: {
-    name: `nxhelp | Nexus v1.1.6 | ${nexus.guilds.size} servers`,
+    name: `nxhelp | Nexus v${package.version} | ${nexus.guilds.size} servers`,
     type: 0
     }
   });
