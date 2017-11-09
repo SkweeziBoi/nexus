@@ -7,7 +7,7 @@ any code used in this repo is licenced on the MIT Licence by Skweezi Leekz, so u
 [Here for the best moderation!](https://discordapp.com/oauth2/authorize?client_id=372109563987492864&scope=bot&permissions=490604)
 
 # Developers
-[Skweezi Leekz](https://github.com/SkweeziBoi)
+-> [Skweezi Leekz](https://github.com/SkweeziBoi)
 
 Thats it. I worked alone on this :D
 
