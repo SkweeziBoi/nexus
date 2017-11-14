@@ -21,6 +21,10 @@ exports.run = function(nexus, msg) {
 		{
 			name: "nxstats",
 			value: "Get my statistical info"
+		},
+		{
+			name: "nxkick <@user> <reason>",
+			value: "Kicks a user out of the server for the specified reason"
 		}
 		]
 	}})
