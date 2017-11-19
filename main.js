@@ -2,21 +2,31 @@ const Discord = require("discord.js")
 var nexus = new Discord.Client()
 var chalk = require("chalk")
 var config = require("./config.json")
-const package = require("package.json")
+const package = require("./package.json")
 
 nexus.on("ready", () => {
 	console.log(chalk.blue(
-    'nexus ' +
-    chalk.white.underline('in') +
-    ` ${nexus.guilds.size} servers ` +
-    chalk.white.underline(`and ${nexus.users.size} users!`)
+    'nexus in' +
+    chalk.white.underline(` ${nexus.guilds.size}`) +
+    ` servers and ` +
+    chalk.white.underline(`${nexus.users.size} `) +
+    'users!'
 ));
-  nexus.user.setPresence({
+	setInterval(function(){
+		let randomplayings = [
+		"with my dad Skweezi Leekz",
+		"Minecraft",
+		"with my hammer", 
+		"at my sister DynTina's house",
+		"please love me ;-;",
+		"sum por..i mmean security videos.. security videos!"]
+		  nexus.user.setPresence({
     game: {
-    name: `nxhelp | Nexus v${package.version} | ${nexus.guilds.size} servers`,
+    name: `${randomplayings[Math.floor(Math.random() * randomplayings.length)]} | nxhelp | ${nexus.guilds.size} Servers and v${package.version}`,
     type: 0
     }
   });
+		}, 10000)
 });
 
 nexus.on("message", msg => {
