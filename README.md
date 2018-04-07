@@ -1,3 +1,6 @@
+**This project is abandoned, and so are my other discord bots/projects. I will not be updating this or any of my other discord bots. They will remain offline forever**
+
+
 # nexus
 nexus is an advanced but simple to use moderation discord bot made in discord.js
 
