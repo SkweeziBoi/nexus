@@ -1,4 +1,4 @@
-**This project is abandoned, and so are my other discord bots/projects. I will not be updating this or any of my other discord bots. They will remain offline forever**
+**This project is abandoned, and so are my other discord bots/projects. I will not be updating this or any of my other discord bots. They will remain offline forever. W33B will still be worked on, though**
 
 
 # nexus
